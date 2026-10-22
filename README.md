@@ -62,15 +62,16 @@ Dependency lock files **3–5 July 2018**, product image uploads **9–10 July 2
 
 ## Screenshots
 
-Captured locally by running the app in Docker (PHP 7.4 + MySQL 5.7), see [portfolio/local-run](https://github.com/bandarsiri2026/portfolio#run-any-project-locally).
+Captured locally by running the app in Docker (PHP 7.4 + MySQL 5.7); see [local run instructions](https://github.com/bandarsiri2026/portfolio/tree/main/local-run).
 
-![Home page: hero slider, promo blocks, cart widget(screenshots/svetilo-home.png)
+![Svetilo home page: hero slider, promo blocks, cart widget](screenshots/svetilo-home.png)
 
-*Home page: hero slider, promo blocks, cart widget*
+*Svetilo home page: hero slider, promo blocks, cart widget*
 
-![Category grid rendered from the Voyager/MySQL catalogue(screenshots/svetilo-categories.png)
+![Category grid rendered from the Voyager/MySQL catalogue](screenshots/svetilo-categories.png)
 
 *Category grid rendered from the Voyager/MySQL catalogue*
+
 
 ## License
 
