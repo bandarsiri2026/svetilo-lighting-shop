@@ -1,0 +1,29 @@
+# --- Secrets & local config ---
+.env
+.env.local
+.env.production
+# Raw database dumps stay private; the schema-only export is published
+!database/schema.sql
+*.dump.sql
+storage/logs/
+bootstrap/cache/*
+!bootstrap/cache/.gitignore
+
+# --- Dependencies ---
+vendor/
+node_modules/
+composer.lock.bak
+
+# --- IDE / OS artifacts ---
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+
+# --- Laravel runtime/cache ---
+storage/framework/cache/data/*
+storage/framework/sessions/*
+storage/framework/views/*
+broadcast/
+public/uploads/

@@ -1,0 +1,2 @@
+{!! $subcategories->description !!}
+<hr>
