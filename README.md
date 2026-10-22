@@ -60,6 +60,18 @@ Dependency lock files **3–5 July 2018**, product image uploads **9–10 July 2
 - Algolia credentials were hard-coded in `public/assets/js/algolia.js`; they have been replaced with placeholders.
 - Laravel 5.5 and Voyager 1.x are end-of-life — presented as legacy work.
 
+## Screenshots
+
+Captured locally by running the app in Docker (PHP 7.4 + MySQL 5.7), see [portfolio/local-run](https://github.com/bandarsiri2026/portfolio#run-any-project-locally).
+
+![Home page: hero slider, promo blocks, cart widget](svetilo-home.png)
+
+*Home page: hero slider, promo blocks, cart widget*
+
+![Category grid rendered from the Voyager/MySQL catalogue](svetilo-categories.png)
+
+*Category grid rendered from the Voyager/MySQL catalogue*
+
 ## License
 
 MIT — see [LICENSE](LICENSE). The code is released under MIT; third-party assets (client product photos, fonts, brand imagery) are not covered by this license and belong to their respective owners.
